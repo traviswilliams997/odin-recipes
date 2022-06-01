@@ -4,3 +4,38 @@ body, html {
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: white;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#main-container >*{
+    margin: 50px;
+}
+h1{
+    font-size: 48px;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 36px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+.main{
+      height: 350px;
+      width: 350px;
+  }
